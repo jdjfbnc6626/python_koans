@@ -2,13 +2,8 @@
 Python Koans
 ============
 
-.. image:: https://travis-ci.org/gregmalcolm/python_koans.png?branch=master
-   :target: http://travis-ci.org/gregmalcolm/python_koans
-
-Python Koans is a port of Edgecase's "Ruby Koans" which can be found
-at http://rubykoans.com/.
-
-.. image:: https://user-images.githubusercontent.com/2614930/28401740-ec6214b2-6cd0-11e7-8afd-30ed3102bfd6.png
+Adapted from https://github.com/gregmalcolm/python_koans
+------------------------
 
 Python Koans is an interactive tutorial for learning the Python programming
 language by making tests pass.
@@ -29,7 +24,6 @@ triangle is equilateral, isosceles or scalene.
 As well as being a great way to learn some Python, it is also a good way to get
 a taste of Test Driven Development (TDD).
 
-
 Downloading Python Koans
 ------------------------
 
@@ -43,32 +37,7 @@ Either site will allow you to download the source as a zip/gz/bz2.
 Installing Python Koans
 -----------------------
 
-Aside from downloading or checking out the latest version of Python Koans, you
-need to install the Python interpreter.
-
-At this time of writing, we support Python3. The policy is to try to keep
-current with the latest production version.
-
-You should be able to work with newer Python versions, but older ones will
-likely give you problems.
-
-You can download Python from here:
-
-    http://www.python.org/download
-
-After installing Python make sure the folder containing the python executable
-is in the system path. In other words, you need to be able to run Python from a
-command console. It will either be `python3` or for windows it will be `python.exe`.
-
-If you have problems, this may help:
-
-    http://www.python.org/about/gettingstarted
-
-Windows users may also want to update the line in the batch file `run.bat` to
-set the python path::
-
-    SET PYTHON_PATH=C:\Python39
-
+* Optimizing this repo for Ubuntu...You should have python and python3 available.
 
 Getting Started
 ---------------
@@ -87,10 +56,6 @@ or::
 
     python3 contemplate_koans.py
 
-In my case I'm using Python 3 with windows, so I fire up my command
-shell (cmd.exe) and run this:
-
-.. image:: https://user-images.githubusercontent.com/2614930/28401747-f723ff00-6cd0-11e7-9b9a-a6993b753cf6.png
 
 Apparently a test failed::
 
@@ -110,11 +75,6 @@ expected value should be. For example::
         fido = self.Dog()
         self.assertEqual(__, isinstance(fido, object))
 
-This is where the Python Command Line can come in handy. In this case I can
-fire up the command line, recreate the scenario and run queries:
-
-.. image:: https://user-images.githubusercontent.com/2614930/28401750-f9dcb296-6cd0-11e7-98eb-c20318eada33.png
-
 Sniffer Support
 ---------------
 
@@ -132,18 +92,6 @@ to poll to see if the files have changed.
 On Linux::
 
     $ pip install pyinotify
-
-On Windows::
-
-    $ pip install pywin32
-
-    Also available here:
-
-    https://github.com/mhammond/pywin32/releases
-
-On Mac OS X::
-
-    $ pip install MacFSEvents
 
 Once it is set up, you just run::
 
@@ -164,7 +112,6 @@ Quoting the Ruby Koans instructions::
 	moment and reflect upon the test to see what it is teaching you
 	and improve the code to better communicate its intent (refactor)."
 
-
 Content
 -------
 
@@ -178,7 +125,6 @@ the Python 2 variant the differences between old and new style classes are
 covered. This loses relevance in in the Python 3 version, but there are some
 extra tests covering new functionality.
 
-
 Finding More Koan Projects
 --------------------------
 
@@ -191,14 +137,6 @@ koans activity on bitbucket.
 
 * Bitbucket koan projects:
     https://bitbucket.org/repo/all?name=koans
-
-Translations
-------------
-
-Translations are always welcome! Feel free to add one to this README
-if you happen to work on one:
-
-https://github.com/mswell/python_koans_br
 
 Acknowledgments
 ---------------
