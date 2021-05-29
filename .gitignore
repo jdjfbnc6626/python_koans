@@ -1,0 +1,10 @@
+# Original from https://github.com/gregmalcolm/python_koans
+*.pyc
+*.swp
+.DS_Store
+answers
+.hg
+.idea
+
+# Added
+venv/
