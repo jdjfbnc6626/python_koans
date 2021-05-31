@@ -153,3 +153,18 @@ FPIP. So here's a little plug for their very cool Python podcast:
 
 A big thanks also to Mike Pirnat @pirnat and Kevin Chase @kjc have pitched in
 as co-maintainers at various times
+
+============
+JJ SET UP
+============
+Recall bash install of venv
+    661  python3 -m venv venv
+    662  sudo apt-get install python3-venv
+    664  python3 -m venv venv
+    665  . venv/bin/activate
+Tidy some dependencies
+  666  python3 contemplate_koans.py
+  667  pip install pyinotify
+  671  pip install sniffer
+  672  sniffer
+Work your solutions branch
